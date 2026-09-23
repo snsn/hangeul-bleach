@@ -77,3 +77,17 @@ $hangeul-bleach docs/design.md의 2장만 수정해줘.
 - [agents/openai.yaml](agents/openai.yaml): 표시 이름과 기본 호출 문구
 
 이 스킬은 문법 검사, 번역투 교정, 작성 스타일 검토를 하나의 편집 흐름으로 묶은 지침입니다. 별도의 한국어 스킬이나 실행 스크립트 없이 사용할 수 있습니다.
+
+## 통합한 한국어 스킬
+
+[DaleSeo/korean-skills](https://github.com/DaleSeo/korean-skills/tree/main/skills)의 세 스킬과 참고 자료를 한글 표백제의 편집 흐름에 통합했습니다.
+
+| 원본 스킬 | 통합한 기능 | 포함된 참고 문서 |
+| --- | --- | --- |
+| grammar-checker | 맞춤법, 띄어쓰기, 조사·어미, 문장 호응과 문장부호 | [문법 기준](references/grammar.md) |
+| humanizer | 번역투, 명사화, 불필요한 수식과 반복, 문장 흐름 | [문체 기준](references/naturalness.md) |
+| style-guide | 어조, 용어, 숫자, 목록, 인용, 날짜와 참조의 일관성 | [일관성 기준](references/consistency.md) |
+
+세 스킬을 별도로 설치할 필요는 없습니다. 원본의 기준을 개발 문서에 맞게 재구성했으며, AI 작성 여부를 판정하거나 자연도 점수를 매기지는 않습니다. 가능성·조건·시제를 보존하는 원칙을 우선합니다.
+
+출처, 각색 범위와 MIT 라이선스 전문은 [출처 및 라이선스 고지](THIRD_PARTY_NOTICES.md)에 기록했습니다.
