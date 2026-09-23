@@ -1,0 +1,6 @@
+interface:
+  display_name: "한글 표백제"
+  short_description: "원뜻을 지키며 한국어 개발 문장의 문체와 기술 용어를 다듬기"
+  default_prompt: "$hangeul-bleach 이 개발 문서를 문단마다 읽고, 원뜻을 유지하면서 자연스러운 한국어와 일관된 개발 용어로 수정해줘."
+policy:
+  allow_implicit_invocation: true
