@@ -6,7 +6,9 @@
 - humanizer: 문장부호, 띄어쓰기, 명사화, 어휘, 문장 구조와 번역투 검토, 의미 보존
 - style-guide: 어조, 용어, 숫자·단위, 목록, 인용·강조, 날짜·시간, 링크·참조의 일관성
 
-반영 위치: `SKILL.md`, `references/grammar.md`, `references/naturalness.md`, `references/consistency.md`.
+상세 분석 흐름과 규칙별 예외, 가상 원문·수정본·분석 사례도 이 편집 기준에 맞게 각색했습니다.
+
+반영 위치: `SKILL.md`, `references/grammar.md`, `references/naturalness.md`, `references/consistency.md`, `references/detailed-rules.md`, `references/review-report.md`, `examples/`.
 
 원본을 그대로 실행하는 구성이 아닙니다. 개발 문서의 의미와 코드를 보존하도록 기준을 조정하고, 중복 지침은 합쳤습니다. AI 작성 여부의 판정·점수화, 임의의 변경률에 따른 중단, 가능성·미래 표현의 일괄 단정화는 채택하지 않았습니다. 띄어쓰기와 문장부호는 허용 표기와 문맥을 구분하도록 재작성했습니다.
 
