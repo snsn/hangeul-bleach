@@ -25,13 +25,37 @@
 
 ## 설치와 사용
 
+### npx로 설치
+
+Node.js와 npm을 사용할 수 있는 환경에서 다음 명령을 실행합니다.
+
+```sh
+npx skills add snsn/hangeul-bleach
+```
+
+`npx`가 설치 도구인 `skills`를 실행하고, 스킬 파일은 이 GitHub 저장소에서 가져옵니다. 한글 표백제를 별도의 npm 패키지로 설치할 필요는 없습니다. 저장소 루트의 `SKILL.md`를 설치 도구가 인식합니다.
+
+설치 전에 스킬이 인식되는지만 확인하려면 다음 명령을 사용합니다.
+
+```sh
+npx skills add snsn/hangeul-bleach --list
+```
+
+설치 옵션은 [Skills CLI 공식 안내](https://github.com/vercel-labs/skills)를 참고하세요.
+
+### 직접 설치
+
 Codex의 개인 스킬 폴더에 이 저장소를 복제합니다. 기본 경로를 사용하는 경우:
 
 ```sh
 git clone https://github.com/snsn/hangeul-bleach.git ~/.codex/skills/hangeul-bleach
 ```
 
-사용자 지정 스킬 경로를 사용한다면 해당 경로에 설치하세요. 스킬을 불러온 새 세션에서 다음과 같이 요청할 수 있습니다.
+사용자 지정 스킬 경로를 사용한다면 해당 경로에 설치하세요.
+
+### 사용 예시
+
+스킬을 불러온 새 세션에서 다음과 같이 요청할 수 있습니다.
 
 ```text
 $hangeul-bleach README.md를 문단마다 읽고 원뜻을 유지하면서 다듬어줘.
